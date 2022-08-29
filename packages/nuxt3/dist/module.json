@@ -1,0 +1,5 @@
+{
+  "name": "@intlify/nuxt3",
+  "configKey": "intlify",
+  "version": "0.2.3"
+}

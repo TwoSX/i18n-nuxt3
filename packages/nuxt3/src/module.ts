@@ -10,7 +10,7 @@ import {
 import { createRequire } from 'module'
 import { resolve } from 'pathe'
 import { isObject, isString } from '@intlify/shared'
-import { vueI18n as VitePlugin } from '@intlify/vite-plugin-vue-i18n'
+import VitePlugin from '@intlify/vite-plugin-vue-i18n'
 import { distDir } from './dirs'
 import { exists, resolveLocales, setupAliasTranspileOptions } from './utils'
 import { optionLoader } from './loader'
