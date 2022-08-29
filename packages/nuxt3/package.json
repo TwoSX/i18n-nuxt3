@@ -44,7 +44,7 @@
     "ufo": "^0.8.3",
     "debug": "^4.3.2",
     "unplugin": "^0.6.2",
-    "vue-i18n": "beta"
+    "vue-i18n": "latest"
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",

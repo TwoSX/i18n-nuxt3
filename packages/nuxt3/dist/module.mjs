@@ -80,14 +80,14 @@ const MODULE_DEV_ENTRIES = {
   "@intlify/core-base": "@intlify/core-base/dist/core-base.esm-bundler.mjs",
   "@vue/devtools-api": "@vue/devtools-api/lib/esm/index.js",
   "@intlify/devtools-if": "@intlify/devtools-if/dist/devtools-if.esm-bundler.mjs",
-  "vue-i18n": "vue-i18n/dist/vue-i18n.esm-bundler.mjs"
+  "vue-i18n": "vue-i18n/dist/vue-i18n.esm-bundler.js"
 };
 const MODULE_PROD_ENTRIES = {
   "@intlify/shared": "@intlify/shared/dist/shared.esm-bundler.js",
   "@intlify/core-base": "@intlify/core-base/dist/core-base.esm-bundler.mjs",
   "@vue/devtools-api": "@vue/devtools-api/lib/esm/index.js",
   "@intlify/devtools-if": "@intlify/devtools-if/dist/devtools-if.esm-bundler.mjs",
-  "vue-i18n": "vue-i18n/dist/vue-i18n.runtime.esm-bundler.mjs"
+  "vue-i18n": "vue-i18n/dist/vue-i18n.runtime.esm-bundler.js"
 };
 const IntlifyModule = defineNuxtModule({
   meta: {

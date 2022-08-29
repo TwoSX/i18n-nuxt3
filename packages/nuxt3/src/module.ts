@@ -35,7 +35,7 @@ const MODULE_DEV_ENTRIES = {
   '@vue/devtools-api': '@vue/devtools-api/lib/esm/index.js',
   '@intlify/devtools-if':
     '@intlify/devtools-if/dist/devtools-if.esm-bundler.mjs',
-  'vue-i18n': 'vue-i18n/dist/vue-i18n.esm-bundler.mjs'
+  'vue-i18n': 'vue-i18n/dist/vue-i18n.esm-bundler.js'
 }
 
 const MODULE_PROD_ENTRIES = {
@@ -44,7 +44,7 @@ const MODULE_PROD_ENTRIES = {
   '@vue/devtools-api': '@vue/devtools-api/lib/esm/index.js',
   '@intlify/devtools-if':
     '@intlify/devtools-if/dist/devtools-if.esm-bundler.mjs',
-  'vue-i18n': 'vue-i18n/dist/vue-i18n.runtime.esm-bundler.mjs'
+  'vue-i18n': 'vue-i18n/dist/vue-i18n.runtime.esm-bundler.js'
 }
 
 const IntlifyModule = defineNuxtModule<IntlifyModuleOptions>({
